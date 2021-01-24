@@ -35,7 +35,7 @@ def webhook():
 
     # log(data)  # logging, no necesario en produccion
 
-    inteligente = True
+    inteligente = False
 
     if data['object'] == 'page':
 
